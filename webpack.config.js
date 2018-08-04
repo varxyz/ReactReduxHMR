@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 
 const isProd = process.env.NODE_ENV === 'production';
 const prod = process.env.NODE_ENV === 'production' ? 'production' : 'development';
@@ -56,6 +57,7 @@ module.exports = {
     }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
+    new OfflinePlugin(),
   ],
   devServer: {
     hot: true,
