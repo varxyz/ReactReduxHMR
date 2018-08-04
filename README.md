@@ -2,7 +2,7 @@
 
 This is a project starter that supports HMR for building scalable react and redux apps.
 
-[DEMO](https://varxyz.github.io/ReactReduxHMR/])
+[DEMO](https://varxyz.github.io/ReactReduxHMR/)
 
 ### Getting Started
 
