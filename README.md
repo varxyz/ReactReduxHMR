@@ -9,6 +9,6 @@ This is a project starter that supports HMR for building scalable react and redu
 ```
 > git clone git@github.com:varxyz/ReactReduxHMR.git
 > cd ReactReduxHMR
-> npm install
-> npm start
+> yarn
+> yarn start
 ```
