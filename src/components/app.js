@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Simple and fast React / Redux HMR starter.</Title>
-        <p>Made by <a href="https://github.com/varxyz">varxyz</a></p>
+        <p>Made by <a href="https://github.com/ysrg">varxyz</a></p>
       </Wrapper>
     );
   }
