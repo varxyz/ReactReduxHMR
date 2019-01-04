@@ -1,6 +1,6 @@
 # ReactReduxHMR
 
-This is a project starter that supports HMR for building scalable react and redux apps.
+This is a project starter that supports HMR for building react and redux apps.
 
 [DEMO](https://ysrg.github.io/ReactReduxHMR/)
 
